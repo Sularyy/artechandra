@@ -1445,27 +1445,30 @@ nav.pagination .current a {
   font-weight: bold; }
 
 header .header-top {
-  background-color: #00ff00; }
+  height: 6.5em; }
 
 header #search_widget {
-  background-color: #00ff00;
-  width: 18em;
-  float: right; }
+  float: right;
+  display: block; }
+
+header .menu {
+  clear: right;
+  display: block;
+  margin-left: 30em; }
+  header .menu li {
+    margin-left: 2em; }
+  header .menu li a {
+    background-color: transparent; }
 
 /*1 html
 2 header
 
 */
 html {
-  width: 100%; }
+  margin: 0 auto; }
 
 #header {
-  background: url(../css/2631097dfdc3a11fb64d215eaa49a322.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%;
-  height: auto;
+  background: url(../css/c245ac19e6d966f12550d049e9e77830.png) no-repeat center;
+  background-size: cover;
+  height: 46em;
   font-family: 'Comic Sans MS'; }
-  #header .logo img {
-    height: 7%;
-    width: 7%; }

@@ -1,13 +1,31 @@
 header{
-  
-.header-top{
-    background-color: #00ff00;
-    //width: 400px;
 
-}
-#search_widget{
-  background-color: #00ff00;
-  width: 18em;
+  .header-top{
+   //background-color: #00ff00;
+   height: 6.5em;
+  //  width: 400px;
+
+  }
+  #search_widget{
+  //background-color: #00ff00;
+  //width: 16em;
   float:right;
-}
+  display: block;
+  }
+  .menu{
+      clear: right;
+      display: block;
+      margin-left: 30em;
+
+      li{
+        margin-left: 2em;
+
+      }
+    li  a {
+          background-color:transparent;
+
+      }
+
+  }
+
 }
