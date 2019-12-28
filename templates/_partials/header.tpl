@@ -22,24 +22,13 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{block name='header_banner'}
-  <div class="header-banner">
-    {hook h='displayBanner'}
-  </div>
-{/block}
+
 
 {block name='header_nav'}
   <div class="header-nav">
     {hook h='displayNav'}
   </div>
 {/block}
-
-{block name='header_logo'}
-  <a class="logo" href="{$urls.base_url}" title="{$shop.name}">
-    <img src="{$shop.logo}" alt="{$shop.name}">
-  </a>
-{/block}
-
 {block name='header_top'}
   <div class="header-top">
     {hook h='displayTop'}
@@ -47,4 +36,10 @@
 
   {hook h='displayNavFullWidth'}
 
+{/block}
+
+{block name='header_logo'}
+  <a class="logo" href="{$urls.base_url}" title="{$shop.name}">
+    <img src="{$shop.logo}" alt="{$shop.name}">
+  </a>
 {/block}

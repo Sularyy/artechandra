@@ -25,7 +25,7 @@
 <!doctype html>
 <html lang="{$language.iso_code}">
 
-  <head>
+<  <head>
     {block name='head'}
       {include file='_partials/head.tpl'}
     {/block}
